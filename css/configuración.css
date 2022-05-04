@@ -10,3 +10,12 @@ html{
 }
 
 /* PALETA DE COLORES */
+
+:root
+{
+    --rosado-1: #F207A0;
+    --rosado-2: #C4168F;
+    --amarillo: #F2CD13;
+    --verde: #B6D936;
+    --negro: #191919;
+}
