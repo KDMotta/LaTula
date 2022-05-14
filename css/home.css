@@ -1,0 +1,145 @@
+/*  BARRA DE NAVEGACIÓN */
+
+header{
+    width: 100%;
+    min-height: 6rem;
+    padding: 0rem 6rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position:absolute;
+	background-color:transparent
+}
+
+.logo{
+    width: 5rem;
+    height: auto;
+}
+
+.nav{
+    list-style: none;
+    width: 40rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botones{
+    font-family:  'Mukta', sans-serif;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: var(--negro);
+}
+
+.botón{
+    display: block;
+    width: 10rem;
+    height: 4rem;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: var(--blanco);
+    padding: 0.9rem;
+    border-radius: 0.5rem;
+    background-color: var(--rosado-1);
+}
+
+
+/*  FONDO HOME PAGE */
+
+.homepage img{
+    width: 100%;
+    height: 100%;
+}
+
+/*  CONTENIDO HOMEPAGE  */
+
+.leyenda{
+    display: flex;
+    position: absolute;
+    top: 10rem;
+    margin-left: 6rem;
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8rem;
+    letter-spacing: 0.5rem;
+    color: var(--blanco);
+}
+
+.descripción{
+    display: flex;
+    position: absolute;
+    top: 40rem;
+    margin-left: 6rem;
+
+    font-family: 'Mukta', sans-serif;
+    font-size: 3rem;
+    color: var(--negro);
+}
+
+.accionesrápidas li a{
+    display: block;
+    position: absolute;
+    top: 63rem;
+    margin-left: 6rem;
+
+    width: 30rem;
+    height: 6rem;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 3.6rem;
+    text-decoration: none;
+    color: var(--negro);
+    padding: 0.9rem;
+    border-radius: 0.5rem;
+    background-color: var(--amarillo);
+}
+
+.accionesrápidas li p{
+    display: block;
+    position: absolute;
+    top: 63rem;
+    margin-left: 46rem;
+
+    width: 30rem;
+    height: 6rem;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 3.6rem;
+    text-decoration: none;
+    color: var(--negro);
+    padding: 0.9rem;
+    border-radius: 0.5rem;
+    background-color: var(--amarillo);
+}
+
+.tulalogo{
+    width: 32rem;
+    display: flex;
+    position: absolute;
+    top: 9rem;
+    margin-left: 65rem;
+}
+
+.tulalogo img{
+    width: 100%;
+}
+
+.tacos{
+    width: 70rem;
+    display: flex;
+    position: absolute;
+    top: 6rem;
+    margin-left: 81.9rem;
+}
+
+.tacos img{
+    width: 100%;
+}

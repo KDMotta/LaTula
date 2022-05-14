@@ -6,6 +6,7 @@
 
 html{
     font-size: 10px;
+    font-family: 'Bebas Neue', cursive;
     font-family: 'Mukta', sans-serif;
 }
 
@@ -18,4 +19,5 @@ html{
     --amarillo: #F2CD13;
     --verde: #B6D936;
     --negro: #191919;
+    --blanco: #FEFEFE;
 }
