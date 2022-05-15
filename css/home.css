@@ -3,7 +3,7 @@
 header{
     width: 100%;
     min-height: 6rem;
-    padding: 0rem 6rem;
+    padding: 1rem 12.8rem;
     
     display: flex;
     justify-content: space-between;
@@ -15,13 +15,13 @@ header{
 }
 
 .logo{
-    width: 5rem;
+    width: 10rem;
     height: auto;
 }
 
 .nav{
     list-style: none;
-    width: 40rem;
+    width: 80rem;
 
     display: flex;
     justify-content: space-between;
@@ -30,19 +30,19 @@ header{
 
 .botones{
     font-family:  'Mukta', sans-serif;
-    font-size: 1.8rem;
+    font-size: 3.6rem;
     text-decoration: none;
     color: var(--negro);
 }
 
 .boton{
     display: block;
-    width: 10rem;
-    height: 4rem;
+    width: 20rem;
+    height: 6rem;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 0.1rem;
-    font-size: 1.8rem;
+    font-size: 3.6rem;
     text-decoration: none;
     color: var(--blanco);
     padding: 0.9rem;
@@ -56,7 +56,7 @@ header{
 .cover img{
     object-fit: cover;
     width: 100%;
-    height: 76rem;
+    height: 108rem;
 }
 
 /*  CONTENIDO HOMEPAGE  */
@@ -64,11 +64,11 @@ header{
 .leyenda{
     display: flex;
     position: absolute;
-    top: 10rem;
-    margin-left: 6rem;
+    top: 18rem;
+    margin-left:11.1rem;
 
     font-family: 'Bebas Neue', cursive;
-    font-size: 8rem;
+    font-size: 12rem;
     letter-spacing: 0.5rem;
     color: var(--blanco);
 }
@@ -76,59 +76,57 @@ header{
 .descripción{
     display: flex;
     position: absolute;
-    top: 40rem;
-    margin-left: 6rem;
+    top: 65.1rem;
+    margin-left: 11.1rem;
 
     font-family: 'Mukta', sans-serif;
-    font-size: 3rem;
+    font-size: 3.6rem;
     color: var(--negro);
 }
 
 .accionesrápidas li a{
-    display: block;
     position: absolute;
-    top: 63rem;
-    margin-left: 6rem;
+    top: 92rem;
+    margin-left: 11.1rem;
 
-    width: 30rem;
-    height: 6rem;
+    width: 37rem;
+    height: 6.9rem;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 0.1rem;
     font-size: 3.6rem;
     text-decoration: none;
     color: var(--negro);
-    padding: 0.9rem;
-    border-radius: 0.5rem;
+    padding: 1.2rem;
+    border-radius: 1rem;
     background-color: var(--amarillo);
 }
 
 .accionesrápidas li p{
-    display: block;
     position: absolute;
-    top: 63rem;
-    margin-left: 46rem;
+    top: 92rem;
+    margin-left: 57.2rem;
 
-    width: 30rem;
-    height: 6rem;
+    width: 37rem;
+    height: 6.9rem;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 0.1rem;
     font-size: 3.6rem;
     text-decoration: none;
     color: var(--negro);
-    padding: 0.9rem;
-    border-radius: 0.5rem;
+    padding: 1.2rem;
+    border-radius: 1rem;
     background-color: var(--amarillo);
 }
 
 .tulalogo{
-    width: 32rem;
-    height: auto;
+    width: 38.7rem;
+    height: 37rem;
     display: flex;
     position: absolute;
-    top: 7rem;
-    margin-left: 64rem;
+    top: 13rem;
+    margin-left: 87.5rem;
 }
 
 .tulalogo img{
@@ -137,13 +135,13 @@ header{
 }
 
 .tacos{
-    width: 70rem;
-    height: 75rem;
+    width: 98.3rem;
+    height: 102.6rem;
     display: flex;
     position: absolute;
     z-index: 1;
-    top: 1rem;
-    margin-left: 81.9rem;
+    top: 5.4rem;
+    margin-left: 93.7rem;
 }
 
 .tacos img{
