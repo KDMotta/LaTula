@@ -33,6 +33,12 @@ header{
     font-size: 3.6rem;
     text-decoration: none;
     color: var(--negro);
+    transition: 0.3s;
+}
+
+.botones:hover{
+    transition: 0.3s;
+    color: var(--blanco);
 }
 
 .boton{
@@ -48,6 +54,13 @@ header{
     padding: 0.9rem;
     border-radius: 0.5rem;
     background-color: var(--rosado-1);
+    transition: 0.3s;
+}
+
+.boton:hover{
+    width: 22rem;
+    transition: 0.3s;
+    background-color: var(--verde);
 }
 
 
@@ -100,6 +113,14 @@ header{
     padding: 1.2rem;
     border-radius: 1rem;
     background-color: var(--amarillo);
+    transition: 0.3s;
+}
+
+.accionesrápidas li a:hover{
+    width: 39rem;
+    transition: 0.3s;
+    background-color: var(--rosado-2);
+    color: var(--blanco);
 }
 
 .accionesrápidas li p{
@@ -132,6 +153,17 @@ header{
 .tulalogo img{
     width: 100%;
     height: auto;
+    animation: move-tulalogo 4s linear infinite;
+}
+
+@keyframes move-tulalogo{
+     0%{
+         transform: translateY(1.5rem);
+     } 50%{
+         transform: translateY(0rem);
+     }100%{
+         transform: translateY(1.5rem);
+     }
 }
 
 .tacos{
