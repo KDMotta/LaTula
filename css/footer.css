@@ -1,0 +1,61 @@
+.piepágina{
+    width: 100%;
+    background-color: var(--rosado-1);
+
+    position: absolute;
+    top: 318.6rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.grupo-1{
+    width: 100%;
+    height: 12rem;
+    display: flex;
+}
+
+.box-1{
+    width: 82%;
+    height: auto;
+    
+    display: flex;
+    align-items: center;
+}
+
+.box-1 h1{
+    font-size: 3rem;
+    font-family: 'Mukta', sans-serif;
+    color: var(--blanco);
+    margin-left: 68rem;
+}
+
+.box-2{
+    width: 18%;
+    height: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.redessociales img{
+    width: 8rem;
+    height: auto;
+    margin: 0rem 1rem;
+}
+
+.grupo-2{
+    width: 100%;
+    height: 3.5rem;
+    background-color: var(--verde);
+
+    display: flex;
+}
+
+.grupo-2 p{
+    font-family: 'Mukta', sans serif;
+    font-size: 1.5rem;
+    color: var(--negro);
+    margin: auto;
+}

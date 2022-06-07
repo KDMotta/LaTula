@@ -1,0 +1,65 @@
+/*  BARRA DE NAVEGACIÓN */
+
+header{
+    width: 100%;
+    min-height: 6rem;
+    padding: 1rem 12.8rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position:absolute;
+	background-color:transparent;
+    z-index: 2;
+}
+
+.logo{
+    width: 10rem;
+    height: auto;
+}
+
+.nav{
+    list-style: none;
+    width: 80rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botones{
+    font-family:  'Mukta', sans-serif;
+    font-size: 3.6rem;
+    text-decoration: none;
+    color: var(--negro);
+    transition: 0.3s;
+}
+
+.botones:hover{
+    transition: 0.3s;
+    color: var(--blanco);
+}
+
+.boton{
+    display: block;
+    width: 20rem;
+    height: 6rem;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 3.6rem;
+    text-decoration: none;
+    color: var(--blanco);
+    padding: 0.9rem;
+    border-radius: 0.5rem;
+    background-color: var(--rosado-1);
+    transition: 0.3s;
+}
+
+.boton:hover{
+    width: 22rem;
+    transition: 0.3s;
+    background-color: var(--verde);
+}
+
