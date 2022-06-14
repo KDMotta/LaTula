@@ -2,26 +2,26 @@
 
 header{
     width: 100%;
-    min-height: 6rem;
-    padding: 1rem 12.8rem;
+    height: 6rem;
+    padding: 0rem 5rem;
     
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     position:absolute;
-	background-color:transparent;
-    z-index: 2;
+	/* background-color:transparent; */
+    /* z-index: 2; */
 }
 
 .logo{
-    width: 10rem;
+    width: 5rem;
     height: auto;
 }
 
 .nav{
     list-style: none;
-    width: 80rem;
+    width: 50rem;
 
     display: flex;
     justify-content: space-between;
@@ -30,7 +30,7 @@ header{
 
 .botones{
     font-family:  'Mukta', sans-serif;
-    font-size: 3.6rem;
+    font-size: 2rem;
     text-decoration: none;
     color: var(--negro);
     transition: 0.3s;
@@ -43,18 +43,22 @@ header{
 
 .boton{
     display: block;
-    width: 20rem;
-    height: 6rem;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 0.1rem;
-    font-size: 3.6rem;
-    text-decoration: none;
-    color: var(--blanco);
+    width: 15rem;
+    height: 5rem;
     padding: 0.9rem;
     border-radius: 0.5rem;
     background-color: var(--rosado-1);
     transition: 0.3s;
+
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: var(--blanco);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .boton:hover{
