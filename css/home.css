@@ -1,0 +1,304 @@
+
+/*  FONDO HOME PAGE */
+
+.cover img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+/*  CONTENIDO HOMEPAGE  */
+.leyenda{
+    width: 70vh;
+    display: flex;
+    position:absolute;
+    top: 12rem;
+    margin-left:11.1rem;
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 880%;
+    letter-spacing: 0.5rem;
+    color: var(--blanco);
+}
+
+.descripción{
+    width: 90vh;
+    display: flex;
+    position: absolute;
+    top: 50rem;
+    margin-left: 11.1rem;
+
+    font-family: 'Mukta', sans-serif;
+    font-size: 2rem;
+    color: var(--negro);
+    background-color: darkgoldenrod;
+}
+
+.accionesrápidas li a{
+    position: absolute;
+    top: 92rem;
+    margin-left: 11.1rem;
+
+    width: 37rem;
+    height: 6.9rem;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 3.6rem;
+    text-decoration: none;
+    color: var(--negro);
+    padding: 1.2rem;
+    border-radius: 1rem;
+    background-color: var(--amarillo);
+    transition: 0.3s;
+}
+
+.accionesrápidas li a:hover{
+    width: 39rem;
+    transition: 0.3s;
+    background-color: var(--rosado-2);
+    color: var(--blanco);
+}
+
+.accionesrápidas li p{
+    position: absolute;
+    top: 92rem;
+    margin-left: 57.2rem;
+
+    width: 37rem;
+    height: 6.9rem;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 3.6rem;
+    text-decoration: none;
+    color: var(--negro);
+    padding: 1.2rem;
+    border-radius: 1rem;
+    background-color: var(--amarillo);
+}
+
+.tulalogo{
+    width: 20vw;
+    max-width:max-content;
+    min-width:min-content;
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    top: 13rem;
+    margin-left: 43%;
+}
+
+.tulalogo img{
+    width: 100%;
+    height: auto;
+    animation: move-tulalogo 4s linear infinite;
+}
+
+@keyframes move-tulalogo{
+    0%{
+        transform: translateY(1.5rem);
+    } 50%{
+        transform: translateY(0rem);
+    }100%{
+        transform: translateY(1.5rem);
+    }
+}
+
+.tacos{
+    width: 50vw;
+    max-width:max-content;
+    min-width:min-content;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top: 7.5%;
+    margin-left: 50%;
+}
+
+.tacos img{
+    width: 100%;
+    height: 100%;
+}
+/* --------------------------------------- */
+
+.divisor{
+    width: 100%;
+    height: 4rem;
+    background-color: var(--amarillo);
+
+    position: absolute;
+    bottom: -4rem;
+    z-index: 5;
+}
+
+/*  GALERÍA  */
+
+.banderines{
+    display: flex;
+    position: absolute;
+    top: 108rem;
+}
+
+.galería{
+    width: 85%;
+    height: 60rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 145rem;
+    left: 14rem;
+}
+
+.hamburguesas{
+    width: 46rem;
+    height: 53rem;
+    background-color: var(--amarillo);
+    border-radius: 1.5rem;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+
+    display: block;
+}
+
+.hamburguesas img{
+    width: 42.8rem;
+    height: 33.8rem;
+    border-radius: 1.5rem;
+    margin: auto;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    
+    display: flex;
+    position: relative;
+    top: 1.5rem;
+}
+
+.hamburguesas p{
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4.8rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.hamburguesas div{
+    width: 22.5rem;
+    height: 6.1rem;
+    background-color: var(--rosado-1);
+    border-radius: 1rem;
+    margin: auto;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+
+    position: relative;
+    bottom: -1rem;
+
+    font-family: 'Mukta', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+    color: var(--blanco);
+}
+
+.gringas{
+    width: 46rem;
+    height: 53rem;
+    background-color: var(--verde);
+    border-radius: 1.5rem;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+
+    display: block;
+}
+
+.gringas div{
+    width: 22.5rem;
+    height: 6.1rem;
+    background-color: var(--rosado-1);
+    border-radius: 1rem;
+    margin: auto;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+
+    position: relative;
+    top: 2.5rem;
+
+    font-family: 'Mukta', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+    color: var(--blanco);
+}
+
+.gringas p{
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4.8rem;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.gringas img{
+    width: 42.8rem;
+    height: 33.8rem;
+    border-radius: 1.5rem;
+    margin: auto;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    
+    display: flex;
+    position: relative;
+    bottom: -1rem;
+}
+
+.tacosdos{
+    width: 46rem;
+    height: 53rem;
+    background-color: var(--amarillo);
+    border-radius: 1.5rem;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+
+    display: block;
+}
+
+.tacosdos img{
+    width: 42.8rem;
+    height: 33.8rem;
+    border-radius: 1.5rem;
+    margin: auto;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    
+    display: flex;
+    position: relative;
+    top: 1.5rem;
+}
+
+.tacosdos p{
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4.8rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.tacosdos div{
+    width: 22.5rem;
+    height: 6.1rem;
+    background-color: var(--rosado-1);
+    border-radius: 1rem;
+    margin: auto;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+
+    position: relative;
+    bottom: -1rem;
+
+    font-family: 'Mukta', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+    color: var(--blanco);
+}
+
+/*  FLYER  */
+
+.flyer{
+    border-radius: 6rem 6rem 0rem 0rem;
+
+    display: flex;
+    position: absolute;
+    top: 212rem;
+}
