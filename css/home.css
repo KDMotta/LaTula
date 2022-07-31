@@ -1,0 +1,611 @@
+body{
+    overflow: scroll;
+}
+
+/*  FONDO HOME PAGE */
+
+.cover img{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+/*  CONTENIDO HOMEPAGE  */
+
+.leyenda{
+    width: 70%;
+    display: flex;
+    position:absolute;
+    top: 12rem;
+    margin-left:5rem;
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 10rem;
+    letter-spacing: 0.5rem;
+    line-height: 10rem;
+    color: var(--blanco);
+}
+
+.descripción{
+    width: 40%;
+    display: flex;
+    position: absolute;
+    top: 45rem;
+    margin-left: 5rem;
+
+    font-family: 'Mukta', sans-serif;
+    font-size: 2rem;
+    color: var(--negro);
+}
+
+.accionesrápidas li a{
+    position: absolute;
+    top: 82%;
+    margin-left: 3%;
+
+    width: 25rem;
+    height: 6.9rem;
+    text-align: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 3.6rem;
+    text-decoration: none;
+    color: var(--negro);
+    padding: 1.2rem;
+    border-radius: 1rem;
+    background-color: var(--amarillo);
+    transition: 0.3s;
+}
+
+.accionesrápidas li a:hover{
+    width: 30rem;
+    transition: 0.3s;
+    background-color: var(--rosado-2);
+    color: var(--blanco);
+}
+
+.accionesrápidas li p{
+    position: absolute;
+    top: 82%;
+    margin-left: 26%;
+
+    width: 25rem;
+    height: 6.9rem;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 3.6rem;
+    text-decoration: none;
+    color: var(--negro);
+    padding: 1.2rem;
+    border-radius: 1rem;
+    background-color: var(--amarillo);
+}
+
+.accionesrápidas li p:hover{
+    width: 30rem;
+    transition: 0.3s;
+    background-color: var(--rosado-2);
+    color: var(--blanco);
+}
+
+.tulalogo{
+    width: 20vw;
+    height: auto;
+    max-width:max-content;
+    min-width:min-content;
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    top: 14rem;
+    margin-left: 46%;
+}
+
+.tulalogo img{
+    width: 100%;
+    height: auto;
+    animation: move-tulalogo 4s linear infinite;
+}
+
+@keyframes move-tulalogo{
+    0%{
+        transform: translateY(1.5rem);
+    } 50%{
+        transform: translateY(0rem);
+    }100%{
+        transform: translateY(1.5rem);
+    }
+}
+
+.tacos{
+    width: 43vw;
+    max-width:max-content;
+    min-width:min-content;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    margin-left: 56.6%;
+}
+
+.tacos img{
+    width: 100%;
+    height: 100%;
+}
+/* --------------------------------------- */
+
+.divisor{
+    width: 100%;
+    height: 6rem;
+    background-color: var(--amarillo);
+
+    position: absolute;
+    bottom: -7rem;
+    z-index: 5;
+}
+
+/*  GALERÍA  */
+
+.fondopared{
+    object-fit: cover;
+    width: 100%;
+    height: 120vh; 
+}
+
+.banderines{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 106%;
+}
+
+.galeríapadre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galería{
+    width: 80%;
+    height: 60vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 145%;
+}
+
+.hamburguesas{
+    width: 70%;
+    height: 41rem;
+    background-color: var(--amarillo);
+    border-radius: 1.5rem;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    margin: 0rem 1rem;
+
+    display: block;
+}
+
+.hamburguesas img{
+    width: 90%;
+    height: auto;
+    border-radius: 1.5rem;
+    margin: auto;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    
+    display: flex;
+    position: relative;
+    top: 1.5rem;
+}
+
+.hamburguesas p{
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4.8rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.hamburguesas div{
+    width: 22.5rem;
+    height: 6.1rem;
+    background-color: var(--rosado-1);
+    border-radius: 1rem;
+    margin: auto;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+
+    position: relative;
+    bottom: -1rem;
+
+    font-family: 'Mukta', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+    color: var(--blanco);
+}
+
+.gringas{
+    width: 70%;
+    height: 41rem;
+    background-color: var(--verde);
+    border-radius: 1.5rem;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    margin: 0rem 1rem;
+
+    display: block;
+}
+
+.gringas div{
+    width: 22.5rem;
+    height: 6.1rem;
+    background-color: var(--rosado-1);
+    border-radius: 1rem;
+    margin: auto;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+
+    position: relative;
+    top: 2.5rem;
+
+    font-family: 'Mukta', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+    color: var(--blanco);
+}
+
+.gringas p{
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4.8rem;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.gringas img{
+    width: 90%;
+    height: auto;
+    border-radius: 1.5rem;
+    margin: auto;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    
+    display: flex;
+    position: relative;
+}
+
+.tacosdos{
+    width: 70%;
+    height: 41rem;
+    background-color: var(--amarillo);
+    border-radius: 1.5rem;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    margin: 0rem 1rem;
+
+    display: block;
+}
+
+.tacosdos img{
+    width: 90%;
+    height: auto;
+    border-radius: 1.5rem;
+    margin: auto;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    
+    display: flex;
+    position: relative;
+    top: 1.5rem;
+}
+
+.tacosdos p{
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4.8rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.tacosdos div{
+    width: 22.5rem;
+    height: 6.1rem;
+    background-color: var(--rosado-1);
+    border-radius: 1rem;
+    margin: auto;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+
+    position: relative;
+    bottom: -1rem;
+
+    font-family: 'Mukta', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+    color: var(--blanco);
+}
+
+/*  FLYER  */
+
+.flyer{
+    object-fit: cover;
+    width: 100%;
+    height: 110vh;
+    border-radius: 6rem 6rem 0rem 0rem;
+
+    display: flex;
+    position: absolute;
+    top: 160rem;
+}
+
+/* ----------------------- DESKTOP ---------------------------*/
+
+@media only screen and (min-width: 1920px) {
+
+    .leyenda{
+        width: 70%;
+        top: 20rem;
+    
+        font-size: 12rem;
+        letter-spacing: 1rem;
+        line-height: 10rem;
+    }
+
+    .descripción{
+        width: 45%;
+        top: 58rem;
+    
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+
+    .accionesrápidas li a{
+        top: 82%;
+    
+        width: 30rem;
+        height: 8rem;
+        font-size: 4.5rem;
+    }
+
+    .accionesrápidas li a:hover{
+        width: 35rem;
+    }
+
+    .accionesrápidas li p{
+        top: 82%;
+    
+        width: 30rem;
+        height: 8rem;
+        font-size: 4.5rem;
+    }
+
+    .accionesrápidas li p:hover{
+        width: 35rem;
+    }
+
+    .tacos{
+        width: 47vw;
+        top: 13%;
+        margin-left: 53%;
+    }
+
+    .tulalogo{
+        width: 25vw;
+        top: 10rem;
+        margin-left: 46%;
+    }
+
+    .divisor{
+        height: 7rem;
+
+        bottom: -7rem;
+    }
+
+    .banderines{
+        top: 103%;
+    }
+
+    .galería{
+        width: 90%;
+        height: 65vh;
+    
+        top: 132%;
+        left: 5%;
+    }
+
+    .hamburguesas{
+        height: 56rem;
+
+        margin: 0rem 2rem;
+    }
+
+    .hamburguesas img{
+        top: 2.5rem;
+    }
+
+    .hamburguesas p{
+        font-size: 6rem;
+        padding-top: 5rem;
+    }
+
+    .gringas{
+        height: 56rem;
+
+        margin: 0rem 2rem;
+    }
+
+    .gringas p{
+        font-size: 6rem;
+        padding-top: 6rem;
+    }
+
+    .tacosdos{
+        height: 56rem;
+
+        margin: 0rem 2rem;
+    }
+
+    .tacosdos img{
+        top: 2.5rem;
+    }
+
+    .tacosdos p{
+        font-size: 6rem;
+        padding-top: 5rem;
+    }
+
+    .flyer{
+        height: 100vh;
+        top: 220rem;
+    }
+}
+
+/* ----------------------- TABLET ---------------------------*/
+
+@media screen and (min-width: 500px) and (max-width: 920px){
+
+    .cover img{
+        height: 80vh;
+    }
+
+    .leyenda{
+        width: 86%;
+        font-size: 10rem;
+    }
+
+    .descripción{
+        width: 38%;
+        top: 42%;
+    }
+
+    .tulalogo{
+        width: 20vh;
+        height: auto;
+        top: 32%;
+        margin-left: 50%;
+    }
+
+    .tulalogo img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .tacos{
+        width: 65vw;
+        height: auto;
+        top: 28%;
+        margin-left: 35%;
+    }
+    
+    .tacos img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .accionesrápidas li a{
+        top: 64%;
+        margin-left: 6.5%;
+    
+        width: 18rem;
+        height: 5rem;
+        padding: 0.5rem;
+        font-size: 3rem;
+    }
+
+    .accionesrápidas li a:hover{
+        width: 25rem;
+    }
+
+    .accionesrápidas li p{
+        top: 70%;
+        margin-left: 6.5%;
+    
+        width: 18rem;
+        height: 5rem;
+        padding: 0.5rem;
+        font-size: 3rem;
+    }
+
+    .accionesrápidas li p:hover{
+        width: 25rem;
+    }
+
+    .divisor{
+        bottom: 16rem;
+    }
+
+    .fondopared{
+        height: 100vh; 
+    }
+
+    .banderines{
+        top: 83%;
+    }
+    
+    .galería{
+        width: 70vh;
+        height: 30vh;
+
+        top: 100%;
+    }
+
+    .hamburguesas{
+        width: 50%;
+        height: 28.5rem;
+    }
+
+    .hamburguesas p{
+        font-size: 3.5rem;
+    }
+    
+    .hamburguesas div{
+        width: 80%;
+        height: 5rem;
+    
+        font-size: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gringas{
+        width: 50%;
+        height: 28.5rem;
+    }
+
+    .gringas p{
+        font-size: 3.5rem;
+    }
+    
+    .gringas div{
+        width: 80%;
+        height: 5rem;
+    
+        font-size: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tacosdos{
+        width: 50%;
+        height: 28.5rem;
+    }
+
+    .tacosdos p{
+        font-size: 3.5rem;
+    }
+    
+    .tacosdos div{
+        width: 80%;
+        height: 5rem;
+    
+        font-size: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .flyer{
+    height: 42vh;
+    border-radius: 4rem 4rem 0rem 0rem;
+
+    top: 140rem;
+}
+
+}
