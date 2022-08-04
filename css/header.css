@@ -1,0 +1,95 @@
+/*  BARRA DE NAVEGACIÓN */
+
+header{
+    width: 100%;
+    height: 6rem;
+    padding: 0rem 5rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:absolute;
+	background-color:transparent;
+    z-index: 2;
+}
+
+.logo{
+    width: 5rem;
+    height: auto;
+}
+
+.nav{
+    list-style: none;
+    width: 50rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botones{
+    font-family:  'Mukta', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--negro);
+    transition: 0.3s;
+}
+
+.botones:hover{
+    transition: 0.3s;
+    color: var(--blanco);
+}
+
+.boton{
+    width: 12rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    background-color: var(--rosado-1);
+    transition: 0.3s;
+
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 3rem;
+    text-decoration: none;
+    color: var(--blanco);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.boton:hover{
+    width: 16rem;
+    transition: 0.3s;
+    background-color: var(--verde);
+}
+
+/* ----------------------- LAPTOP ---------------------------*/
+
+@media only screen and (min-width: 1920px) {
+
+    header{
+        margin: 3rem 0rem;
+    }
+}
+
+/* ----------------------- TABLET ---------------------------*/
+
+@media only screen and (min-width: 500px) and (max-width: 920px){
+
+    header{
+        margin: 1.5rem 0rem;
+    }
+}
+
+/* ----------------------- TELÉFONO  ---------------------------*/
+
+@media screen and (min-width: 375px) and (max-width: 428px){
+
+    header{
+        display: flex;
+    }
+
+}
+

@@ -1,0 +1,229 @@
+.fondopared{
+    object-fit: cover;
+    width: 100%;
+    height: 120vh; 
+}
+
+.banderines{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 4%;
+}
+
+
+/*------------------------------------------------------------------*/
+
+.título{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+}
+
+.título p{
+    font-size: 9.6rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.cuadrofondo{
+    width: 100%;
+    height: 56rem;
+
+    position: absolute;
+    top: 60%;
+}
+
+.cuadrofondo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6rem 6rem 0rem 0rem;
+}
+
+.grupo-1{
+    width: 90%;
+    height: auto;
+    margin: 0rem 8rem;
+
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    top: 58%;
+}
+
+.caja-1{
+    width: 45%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.caja-1 p{
+    width: 100%;
+    font-family: 'Mukta', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--blanco);
+
+    margin-bottom: 3rem;
+    margin-top: 6.5rem;
+}
+
+.caja-1 img{
+    width: 100%;
+    height: auto;
+}
+
+.caja-2{
+    width: 45%;
+    height: auto;
+    display: block;
+}
+
+.text1{
+    width: 100%;
+    font-family: 'Mukta', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--blanco);
+
+    margin-top: 6.5rem;
+}
+
+.text2{
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 6rem;
+    text-align: center;
+    color: var(--blanco);
+
+    margin-bottom: 2rem;
+}
+
+.redessociales{
+    width: 95%;
+    height: auto;
+    margin-bottom: 3rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+
+    animation: move-redessociales 4s linear infinite;
+}
+
+@keyframes move-redessociales{
+    0%{
+        transform: translateY(1.5rem);
+    } 50%{
+        transform: translateY(0rem);
+    }100%{
+        transform: translateY(1.5rem);
+    }
+}
+
+.text3{
+    width: 100%;
+    font-family: 'Mukta', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--blanco);
+}
+
+/* ----------------------- LAPTOP ---------------------------*/
+
+@media only screen and (min-width: 1920px) {
+
+    .fondopared{
+        object-fit: cover;
+        width: 100%;
+        height: auto; 
+    }
+
+    .banderines{
+        top: 2%;
+    }
+
+    .cuadrofondo{
+        height: 65rem;
+
+        top: 54%;
+    }
+
+    .grupo-1{
+        top: 52%;
+    }
+
+    .text1{
+        margin-top: 6.5rem;
+        font-size: 5;
+    }
+
+    .text2{
+        margin-bottom: 4rem;
+        font-size: 8;
+    }
+
+    .redessociales{
+        width: 100%;
+    }
+}
+
+/* ----------------------- DESKTOP ---------------------------*/
+@media only screen and (min-width: 1440px) and (max-width: 1441px){
+    .fondopared{
+        height: auto; 
+    }
+}
+
+/* ----------------------- TABELT ---------------------------*/
+
+@media only screen and (min-width: 500px) and (max-width: 920px){
+    
+    .título{
+        top: 20%;
+    }
+
+    .cuadrofondo{
+        height: 110rem;
+        top: 35%;
+    }
+
+    .grupo-1{
+        margin: 0rem 4rem;
+    
+        display: block;
+        justify-content: center;
+        top: 40%;
+    }
+
+    .caja-1{
+        width: 90%;
+        margin: auto;
+    
+        display: flex;
+    }
+
+    .caja-1 p{    
+        margin-bottom: 1rem;
+        margin-top: 0rem;
+    }
+
+    .caja-2{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+
+    .redessociales{
+        width: 100%;
+        height: auto;
+    
+        animation: move-redessociales 4s linear infinite;
+    }
+}
