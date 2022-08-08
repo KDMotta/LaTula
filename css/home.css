@@ -1,0 +1,558 @@
+/*  FONDO HOME PAGE */
+
+.cover img{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+/*  CONTENIDO HOMEPAGE  */
+
+.leyenda{
+    width: 70%;
+    display: flex;
+    position:absolute;
+    top: 12rem;
+    margin-left:5rem;
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 10rem;
+    letter-spacing: 0.5rem;
+    line-height: 10rem;
+    color: var(--blanco);
+}
+
+.descripción{
+    width: 40%;
+    display: flex;
+    position: absolute;
+    top: 45rem;
+    margin-left: 5rem;
+
+    font-family: 'Mukta', sans-serif;
+    font-size: 2rem;
+    color: var(--negro);
+}
+
+.accionesrápidas li a{
+    position: absolute;
+    top: 82%;
+    margin-left: 3%;
+
+    width: 25rem;
+    height: 6.9rem;
+    text-align: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 3.6rem;
+    text-decoration: none;
+    color: var(--negro);
+    padding: 1.2rem;
+    border-radius: 1rem;
+    background-color: var(--amarillo);
+    transition: 0.3s;
+}
+
+.accionesrápidas li a:hover{
+    width: 30rem;
+    transition: 0.3s;
+    background-color: var(--rosado-2);
+    color: var(--blanco);
+}
+
+.accionesrápidas li p{
+    position: absolute;
+    top: 82%;
+    margin-left: 26%;
+
+    width: 25rem;
+    height: 6.9rem;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 3.6rem;
+    text-decoration: none;
+    color: var(--negro);
+    padding: 1.2rem;
+    border-radius: 1rem;
+    background-color: var(--amarillo);
+}
+
+.accionesrápidas li p:hover{
+    width: 30rem;
+    transition: 0.3s;
+    background-color: var(--rosado-2);
+    color: var(--blanco);
+}
+
+.tulalogo{
+    width: 20vw;
+    height: auto;
+    max-width:max-content;
+    min-width:min-content;
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    top: 14rem;
+    margin-left: 46%;
+}
+
+.tulalogo img{
+    width: 100%;
+    height: auto;
+    animation: move-tulalogo 4s linear infinite;
+}
+
+@keyframes move-tulalogo{
+    0%{
+        transform: translateY(1.5rem);
+    } 50%{
+        transform: translateY(0rem);
+    }100%{
+        transform: translateY(1.5rem);
+    }
+}
+
+.tacos{
+    width: 43vw;
+    max-width:max-content;
+    min-width:min-content;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    margin-left: 56.5%;
+}
+
+.tacos img{
+    width: 100%;
+    height: 100%;
+}
+/* --------------------------------------- */
+
+.divisor{
+    width: 100%;
+    height: 6rem;
+    background-color: var(--amarillo);
+
+    position: absolute;
+    bottom: -6rem;
+    z-index: 5;
+}
+
+/*  GALERÍA  */
+
+.fondopared{
+    object-fit: cover;
+    width: 100%;
+    height: 165vh; 
+}
+
+.banderines{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 104%;
+}
+
+.galeríapadre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pregunta{
+    width: 100%;
+    height: auto;
+    font-size: 9.6rem;
+    font-family: 'Bebas Neue', cursive;
+
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 135%;
+}
+.principal{
+    width: 80%;
+    height: auto;
+
+    position: absolute;
+    top: 155%;
+}
+
+.principal img{
+    width: 40rem;
+    height: auto;
+    margin-left: 0.5rem;
+    margin-bottom: 10rem;
+    border-radius: 1rem;
+}
+
+/*  FLYER  */
+
+.flyer{
+    object-fit: cover;
+    width: 100%;
+    height: 110vh;
+    border-radius: 6rem 6rem 0rem 0rem;
+
+    display: flex;
+    position: absolute;
+    top: 192rem;
+}
+
+/* ----------------------- LAPTOP ---------------------------*/
+@media only screen and (min-width: 1920px) {
+
+    .leyenda{
+        width: 70%;
+        top: 20rem;
+    
+        font-size: 12rem;
+        letter-spacing: 1rem;
+        line-height: 10rem;
+    }
+
+    .descripción{
+        width: 45%;
+        top: 58rem;
+    
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+
+    .accionesrápidas li a{
+        top: 82%;
+    
+        width: 30rem;
+        height: 8rem;
+        font-size: 4.5rem;
+    }
+
+    .accionesrápidas li a:hover{
+        width: 35rem;
+    }
+
+    .accionesrápidas li p{
+        top: 82%;
+    
+        width: 30rem;
+        height: 8rem;
+        font-size: 4.5rem;
+    }
+
+    .accionesrápidas li p:hover{
+        width: 35rem;
+    }
+
+    .tacos{
+        width: 47vw;
+        top: 13%;
+        margin-left: 52.6%;
+    }
+
+    .tulalogo{
+        width: 25vw;
+        top: 10rem;
+        margin-left: 46%;
+    }
+
+    .divisor{
+        height: 7rem;
+
+        bottom: -7rem;
+    }
+
+    .banderines{
+        top: 103%;
+    }
+    
+    .principal img{
+        width: 50rem;
+    }
+
+    .flyer{
+        height: 100vh;
+        top: 255rem;
+    }
+}
+
+/* ----------------------- DESKTOP ---------------------------*/
+@media only screen and (min-width: 1440px) and (max-width: 1500px){
+
+    .cover img{
+        width: 100%;
+        height: auto;
+    }
+
+    .accionesrápidas li a{
+        top: 60%;
+    }
+
+    .accionesrápidas li p{
+        top: 60%;
+    }
+
+    .divisor{
+        bottom: 21.8rem;
+    }
+
+    .fondopared{
+        margin-top: -5rem;
+    }
+
+    .banderines{
+        top: 76%;
+    }
+
+    .pregunta{
+        top: 100%;
+    }
+
+    .principal{
+        width: 80%;
+        height: auto;
+    
+        position: absolute;
+        top: 118%;
+    }
+
+    .principal img{
+        width: 37rem;
+        height: auto;
+        margin-left: 0.5rem;
+        margin-bottom: 10rem;
+        border-radius: 1rem;
+    }
+
+    .flyer{
+        height: 80vh;
+    }
+}
+
+/* ----------------------- TABLET ---------------------------*/
+@media only screen and (min-width: 500px) and (max-width: 920px){
+
+    .cover img{
+        height: 80vh;
+    }
+
+    .leyenda{
+        width: 86%;
+        font-size: 10rem;
+    }
+
+    .descripción{
+        width: 38%;
+        top: 42%;
+    }
+
+    .tulalogo{
+        width: 20vh;
+        height: auto;
+        top: 32%;
+        margin-left: 50%;
+    }
+
+    .tulalogo img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .tacos{
+        width: 65vw;
+        height: auto;
+        top: 28%;
+        margin-left: 35%;
+    }
+    
+    .tacos img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .accionesrápidas li a{
+        top: 64%;
+        margin-left: 6.5%;
+    
+        width: 18rem;
+        height: 5rem;
+        padding: 0.5rem;
+        font-size: 3rem;
+    }
+
+    .accionesrápidas li a:hover{
+        width: 25rem;
+    }
+
+    .accionesrápidas li p{
+        top: 70%;
+        margin-left: 6.5%;
+    
+        width: 18rem;
+        height: 5rem;
+        padding: 0.5rem;
+        font-size: 3rem;
+    }
+
+    .accionesrápidas li p:hover{
+        width: 25rem;
+    }
+
+    .divisor{
+        bottom: 16rem;
+    }
+
+    .fondopared{
+        height: 130vh; 
+    }
+
+    .banderines{
+        top: 83%;
+    }
+    
+    .pregunta{
+        font-size: 8rem;
+        top: 98%;
+    }
+    .principal{
+        width: 80%;
+        height: auto;
+    
+        position: absolute;
+        top: 110%;
+    }
+    
+    .principal img{
+        width: 30rem;
+        margin-bottom: 5rem;
+    }
+
+    .flyer{
+    height: 42vh;
+    border-radius: 4rem 4rem 0rem 0rem;
+
+    top: 190rem;
+}
+
+}
+
+/* ----------------------- TELÉFONO  ---------------------------*/
+@media only screen and (min-width: 375px) and (max-width: 428px){
+    .cover img{
+        width: 100%;
+        height: 90vh;
+    }
+
+    .leyenda{
+        width: 95%;
+        display: flex;
+        position:absolute;
+        top: 8%;
+        right: -1.5rem;
+
+        font-size: 4rem;
+        letter-spacing: 0.5rem;
+        line-height:4.5rem;
+    }
+
+    .descripción{
+        width: 80%;
+        top: 30%;
+        right: 4rem;
+
+        font-size: 1.8rem;
+        line-height:2rem;
+        text-align: justify;
+    }
+
+    .tulalogo{
+        width: 25vh;
+        height: auto;
+        top: 57%;
+        margin-left: 12%;
+    }
+
+    .tulalogo img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .tacos{
+        width: 65vw;
+        height: auto;
+        top: 52%;
+        margin-left: 35%;
+    }
+    
+    .tacos img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .accionesrápidas li a{
+        top: 48%;
+        margin-left: 9.5%;
+    
+        width: 13rem;
+        height: 4.5rem;
+        padding: 0.5rem;
+        font-size: 3rem;
+    }
+
+    .accionesrápidas li a:hover{
+        width: 16rem;
+    }
+
+    .accionesrápidas li p{
+        top: 48%;
+        margin-left: 55%;
+    
+        width: 13rem;
+        height: 4.5rem;
+        padding: 0.5rem;
+        font-size: 3rem;
+    }
+
+    .accionesrápidas li p:hover{
+        width: 16rem;
+    }
+
+    .divisor{
+        height: 4rem;
+        bottom: 3rem;
+    }
+
+    .fondopared{
+        height: 270vh; 
+    }
+
+    .pregunta{
+        font-size: 4rem;
+        top: 105%;
+    }
+    .principal{
+        width: 80%;
+        height: auto;
+    
+        position: absolute;
+        top: 115%;
+    }
+    
+    .principal img{
+        width: 30rem;
+        margin-bottom: 5rem;
+    }
+
+    .banderines{
+        top: 94.5%;
+    }
+    
+    .flyer{
+    height: auto;
+    border-radius: 2rem 2rem 0rem 0rem;
+
+    top: 230rem;
+}
+}

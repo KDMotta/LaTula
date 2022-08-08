@@ -1,0 +1,772 @@
+.info-btn{
+    display: flex;
+    position: absolute;
+}
+
+/*BOTÓN MODAL*/
+.boton-modal{
+    width: 15rem;
+    height: 5rem;
+    background-color: var(--rosado-1);
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -1.5rem;
+    right: 32rem;
+}
+
+.boton-modal label{
+    font-size: 3rem;
+    font-family: 'Mukta', sans-serif;
+    color: var(--blanco);
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+/*FIN DEL BOTÓN MODAL*/
+
+/*VENTANA MODAL*/
+#btn-modal{
+    position: absolute;
+    display: none;
+}
+
+.container-modal{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#btn-modal:checked ~ .container-modal{
+    display: flex;
+}
+
+.content-modal{
+    width: 100%;
+    max-width: 40rem;
+    padding: 2rem;
+    background-color: var(--blanco);
+    border-radius: 1rem;
+}
+
+.content-modal h2{
+    text-align: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 2.5rem;
+}
+
+.content-modal p{
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.5rem;
+    padding: 1.5rem 0rem;
+    border-top: 0.1rem solid #dbdbdb;
+    border-bottom: 0.1rem solid #dbdbdb;
+}
+
+.content-modal .btn-cerrar{
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-modal .btn-cerrar label{
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-family: 'Mukta', sans-serif;
+    color: var(--blanco);
+    background-color: var(--rosado-1);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.content-modal .btn-cerrar label:hover{
+    background-color:var(--verde);
+    color: var(--negro);
+}
+/*FIN DE LA VENTANA MODAL*/
+
+
+/*------------------------------------- VENTANA MODAL 2 ---------------------------------------------------------*/
+/*BOTÓN MODAL*/
+.boton-modal2{
+    width: 15rem;
+    height: 5rem;
+    background-color: var(--rosado-1);
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -1.5rem;
+    left: -7.5rem;
+}
+
+.boton-modal2 label{
+    font-size: 3rem;
+    font-family: 'Mukta', sans-serif;
+    color: var(--blanco);
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+/*FIN DEL BOTÓN MODAL*/
+
+/*VENTANA MODAL*/
+#btn-modal2{
+    position: absolute;
+    display: none;
+}
+
+.container-modal2{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#btn-modal2:checked ~ .container-modal2{
+    display: flex;
+}
+
+.content-modal2{
+    width: 100%;
+    max-width: 40rem;
+    padding: 2rem;
+    background-color: var(--blanco);
+    border-radius: 1rem;
+}
+
+.content-modal2 h2{
+    text-align: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 2.5rem;
+}
+
+.content-modal2 p{
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.5rem;
+    padding: 1.5rem 0rem;
+    border-top: 0.1rem solid #dbdbdb;
+    border-bottom: 0.1rem solid #dbdbdb;
+}
+
+.content-modal2 .btn-cerrar2{
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-modal2 .btn-cerrar2 label{
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-family: 'Mukta', sans-serif;
+    color: var(--blanco);
+    background-color: var(--rosado-1);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.content-modal2 .btn-cerrar2 label:hover{
+    background-color:var(--verde);
+    color: var(--negro);
+}
+/*FIN DE LA VENTANA MODAL*/
+
+/*------------------------------------- VENTANA MODAL 3 ---------------------------------------------------------*/
+/*BOTÓN MODAL*/
+.boton-modal3{
+    width: 15rem;
+    height: 5rem;
+    background-color: var(--rosado-1);
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -1.5rem;
+    left: 33rem;
+}
+
+.boton-modal3 label{
+    font-size: 3rem;
+    font-family: 'Mukta', sans-serif;
+    color: var(--blanco);
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+/*FIN DEL BOTÓN MODAL*/
+
+/*VENTANA MODAL*/
+#btn-modal3{
+    position: absolute;
+    display: none;
+}
+
+.container-modal3{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#btn-modal3:checked ~ .container-modal3{
+    display: flex;
+}
+
+.content-modal3{
+    width: 100%;
+    max-width: 40rem;
+    padding: 2rem;
+    background-color: var(--blanco);
+    border-radius: 1rem;
+}
+
+.content-modal3 h2{
+    text-align: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 2.5rem;
+}
+
+.content-modal3 p{
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.5rem;
+    padding: 1.5rem 0rem;
+    border-top: 0.1rem solid #dbdbdb;
+    border-bottom: 0.1rem solid #dbdbdb;
+}
+
+.content-modal3 .btn-cerrar3{
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-modal3 .btn-cerrar3 label{
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-family: 'Mukta', sans-serif;
+    color: var(--blanco);
+    background-color: var(--rosado-1);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.content-modal3 .btn-cerrar3 label:hover{
+    background-color:var(--verde);
+    color: var(--negro);
+}
+/*FIN DE LA VENTANA MODAL*/
+
+/*------------------------------------- VENTANA MODAL 4 ---------------------------------------------------------*/
+/*BOTÓN MODAL*/
+.boton-modal4{
+    width: 15rem;
+    height: 5rem;
+    background-color: var(--rosado-1);
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35rem;
+    right: 32rem;
+}
+
+.boton-modal4 label{
+    font-size: 3rem;
+    font-family: 'Mukta', sans-serif;
+    color: var(--blanco);
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+/*FIN DEL BOTÓN MODAL*/
+
+/*VENTANA MODAL*/
+#btn-modal4{
+    position: absolute;
+    display: none;
+}
+
+.container-modal4{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#btn-modal4:checked ~ .container-modal4{
+    display: flex;
+}
+
+.content-modal4{
+    width: 100%;
+    max-width: 40rem;
+    padding: 2rem;
+    background-color: var(--blanco);
+    border-radius: 1rem;
+}
+
+.content-modal4 h2{
+    text-align: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 2.5rem;
+}
+
+.content-modal4 p{
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.5rem;
+    padding: 1.5rem 0rem;
+    border-top: 0.1rem solid #dbdbdb;
+    border-bottom: 0.1rem solid #dbdbdb;
+}
+
+.content-modal4 .btn-cerrar4{
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-modal4 .btn-cerrar4 label{
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-family: 'Mukta', sans-serif;
+    color: var(--blanco);
+    background-color: var(--rosado-1);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.content-modal4 .btn-cerrar4 label:hover{
+    background-color:var(--verde);
+    color: var(--negro);
+}
+/*FIN DE LA VENTANA MODAL*/
+
+/*------------------------------------- VENTANA MODAL 5 ---------------------------------------------------------*/
+/*BOTÓN MODAL*/
+.boton-modal5{
+    width: 15rem;
+    height: 5rem;
+    background-color: var(--rosado-1);
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35rem;
+    left: -7.5rem;
+}
+
+.boton-modal5 label{
+    font-size: 3rem;
+    font-family: 'Mukta', sans-serif;
+    color: var(--blanco);
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+/*FIN DEL BOTÓN MODAL*/
+
+/*VENTANA MODAL*/
+#btn-modal5{
+    position: absolute;
+    display: none;
+}
+
+.container-modal5{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#btn-modal5:checked ~ .container-modal5{
+    display: flex;
+}
+
+.content-modal5{
+    width: 100%;
+    max-width: 40rem;
+    padding: 2rem;
+    background-color: var(--blanco);
+    border-radius: 1rem;
+}
+
+.content-modal5 h2{
+    text-align: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 2.5rem;
+}
+
+.content-modal5 p{
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.5rem;
+    padding: 1.5rem 0rem;
+    border-top: 0.1rem solid #dbdbdb;
+    border-bottom: 0.1rem solid #dbdbdb;
+}
+
+.content-modal5 .btn-cerrar5{
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-modal5 .btn-cerrar5 label{
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-family: 'Mukta', sans-serif;
+    color: var(--blanco);
+    background-color: var(--rosado-1);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.content-modal5 .btn-cerrar5 label:hover{
+    background-color:var(--verde);
+    color: var(--negro);
+}
+/*FIN DE LA VENTANA MODAL*/
+
+/*------------------------------------- VENTANA MODAL 6 ---------------------------------------------------------*/
+/*BOTÓN MODAL*/
+.boton-modal6{
+    width: 15rem;
+    height: 5rem;
+    background-color: var(--rosado-1);
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35rem;
+    left: 33rem;
+}
+
+.boton-modal6 label{
+    font-size: 3rem;
+    font-family: 'Mukta', sans-serif;
+    color: var(--blanco);
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+/*FIN DEL BOTÓN MODAL*/
+
+/*VENTANA MODAL*/
+#btn-modal6{
+    position: absolute;
+    display: none;
+}
+
+.container-modal6{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#btn-modal6:checked ~ .container-modal6{
+    display: flex;
+}
+
+.content-modal6{
+    width: 100%;
+    max-width: 40rem;
+    padding: 2rem;
+    background-color: var(--blanco);
+    border-radius: 1rem;
+}
+
+.content-modal6 h2{
+    text-align: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 2.5rem;
+}
+
+.content-modal6 p{
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.5rem;
+    padding: 1.5rem 0rem;
+    border-top: 0.1rem solid #dbdbdb;
+    border-bottom: 0.1rem solid #dbdbdb;
+}
+
+.content-modal6 .btn-cerrar6{
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-modal6 .btn-cerrar6 label{
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-family: 'Mukta', sans-serif;
+    color: var(--blanco);
+    background-color: var(--rosado-1);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.content-modal6 .btn-cerrar6 label:hover{
+    background-color:var(--verde);
+    color: var(--negro);
+}
+/*FIN DE LA VENTANA MODAL*/
+
+/* ----------------------- LAPTOP ---------------------------*/
+@media only screen and (min-width: 1920px){
+
+    .boton-modal{
+        top: -3.5rem;
+        right: 42rem;
+    }
+
+    .boton-modal2{
+        top: -3.5rem;
+        right: 62rem;
+    }
+
+    .boton-modal3{
+        top: -3.5rem;
+        left: 43rem;
+    }
+
+    .boton-modal4{
+        top: 39.5rem;
+        right: 42rem;
+    }
+
+    .boton-modal5{
+        top: 39.5rem;
+        right: 32rem;
+    }
+
+    .boton-modal6{
+        top: 39.5rem;
+        left: 43rem;
+    }
+
+}
+
+/* ----------------------- DESKTOP ---------------------------*/
+@media only screen and (min-width: 1440px) and (max-width: 1500px){
+    .boton-modal{
+        top: -24rem;
+        right: 30rem;
+    }
+
+    .boton-modal2{
+        top: -24rem;
+    }
+
+    .boton-modal3{
+        top: -24rem;
+        left: 29.5rem;
+    }
+
+    .boton-modal4{
+        top: 11rem;
+        right: 30rem;
+    }
+
+    .boton-modal5{
+        top: 11rem;
+    }
+
+    .boton-modal6{
+        top: 11rem;
+        left: 29.5rem;
+    }
+}
+
+/* ----------------------- TABLET ---------------------------*/
+@media only screen and (min-width: 500px) and (max-width: 920px){
+
+    .container-modal6{
+        height: 130vh;
+    }
+
+    .boton-modal{
+        top: -23rem;
+        right: 8rem;
+    }
+
+    .boton-modal2{
+        top: -23rem;
+        left: 8rem;
+    }
+
+    .boton-modal3{
+        top: 2rem;
+        left: -23rem;
+    }
+
+    .boton-modal4{
+        top: 2rem;
+        left: 8rem;
+    }
+
+    .boton-modal5{
+        top: 27.5rem;
+        left: -23rem;
+    }
+
+    .boton-modal6{
+        top: 27.5rem;
+        left: 8rem;
+    }
+}
+
+/* ----------------------- TELÉFONO  ---------------------------*/
+@media only screen and (min-width: 375px) and (max-width: 428px){
+
+    .container-modal{
+        width: 100%;
+        height: 110vh;
+    }
+
+    .content-modal{
+        max-width: 25rem;
+    }
+
+    .boton-modal{
+        top: -60.5rem;
+        left: -6.5rem;
+    }
+
+    .container-modal2{
+        width: 100%;
+        height: 110vh;
+    }
+
+    .content-modal2{
+        max-width: 25rem;
+    }
+
+    .boton-modal2{
+        top: -35rem;
+        left: -6.5rem;
+    }
+
+    .container-modal3{
+        width: 100%;
+        height: 110vh;
+    }
+
+    .content-modal3{
+        max-width: 25rem;
+    }
+
+    .boton-modal3{
+        top: -10.4rem;
+        left: -6.5rem;
+    }
+
+    .container-modal4{
+        width: 100%;
+        height: 110vh;
+    }
+
+    .content-modal4{
+        max-width: 25rem;
+    }
+
+    .boton-modal4{
+        top: 15rem;
+        left: -6.5rem;
+    }
+
+    .container-modal5{
+        width: 100%;
+        height: 110vh;
+    }
+
+    .content-modal5{
+        max-width: 25rem;
+    } 
+
+    .boton-modal5{
+        top: 40rem;
+        left: -6.5rem;
+    }
+
+    .container-modal6{
+        width: 100%;
+        height: 110vh;
+    }
+
+    .content-modal6{
+        max-width: 25rem;
+    }
+
+    .boton-modal6{
+        top: 65rem;
+        left: -6.5rem;
+    }
+}
